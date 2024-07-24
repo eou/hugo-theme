@@ -70,12 +70,18 @@ $global-background: $white !default;
 
 // Headings font size of the site.
 $global-headings: (
-  h1: 26px,
-  h2: 24px,
-  h3: 20px,
-  h4: 16px,
-  h5: 14px,
-  h6: 14px
+  // h1: 26px,
+  // h2: 24px,
+  // h3: 20px,
+  // h4: 16px,
+  // h5: 14px,
+  // h6: 14px
+  h1: 1.8em,
+  h2: 1.5em,
+  h3: 1.2em,
+  h4: 1em,
+  h5: 0.8em,
+  h6: 0.8em
 ) !default;
 
 
@@ -126,7 +132,8 @@ $post-padding: 1.5em 0 !default;
 $post-border: 1px solid $light-gray !default;
 
 // Font size of post title.
-$post-title-font-size: 27px !default;
+// $post-title-font-size: 27px !default;
+$post-title-font-size: 2em !default;
 
 // Font weight of post title.
 $post-title-font-weight: 400 !default;
@@ -141,7 +148,8 @@ $post-meta-font-color: $dark-gray !default;
 $post-readMore-border-bottom: 1px solid $theme-color !default;
 
 // Margin top of the post footer.
-$post-footer-margin-top: 20px !default;
+// $post-footer-margin-top: 20px !default;
+$post-footer-margin-top: 3em !default;
 
 // Border top of post footer.
 $post-footer-border-top: 1px solid $light-gray !default;
