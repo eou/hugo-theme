@@ -1,11 +1,12 @@
 .post-copyright {
-  margin-top: 20px;
-  padding-top: 10px;
+  margin-top: 3em;
+  padding-top: 1em;
   border-top: 1px dashed $light-gray;
 
   .copyright-item {
     margin: 5px 0;
-
+    font-family: Avenir;
+  
     a {
       color: $theme-color;
       word-wrap: break-word;
@@ -17,12 +18,12 @@
 
     .item-title {
       display: inline-block;
-      min-width: 5rem;
-      margin-right: .5rem;
-      text-align: right;
+      // min-width: 5rem;
+      // margin-right: .5rem;
+      text-align: left;
 
       &:after {
-        content: " :";
+        content: " 💡";
       }
     }
   }
