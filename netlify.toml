@@ -9,6 +9,7 @@
 
 [context.production.environment]
   HUGO_BASEURL = "https://hugo-theme-even.netlify.app/"
+  TZ = "America/Los_Angeles"
 
 [context.deploy-preview]
   command = "hugo -s exampleSite -b $DEPLOY_PRIME_URL"
