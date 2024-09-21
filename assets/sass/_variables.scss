@@ -9,7 +9,7 @@ $theme-color-config: 'WHY';
 
 // Default theme color map
 $theme-color-map: (
-  'WHY': #4d9bc0 #fefdfb,
+  'WHY': #4d9bc0 #fcfcfa,
   'Default': #c05b4d #f8f5ec,
   'Mint Green': #16982B #f5f5f5,
   'Cobalt Blue': #0047AB #f0f2f5,
@@ -33,7 +33,7 @@ $deputy-color: nth($theme-color-list, 2) !default;
 
 // ========== Color ========== //
 $black: #0a0a0a !default;
-$white: #fefdfb !default;
+$white: #fcfcfa !default;
 $light-gray: #e6e6e6 !default;
 $gray: #cacaca !default;
 $dark-gray: #8a8a8a !default;
