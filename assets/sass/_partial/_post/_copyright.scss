@@ -1,7 +1,7 @@
 .post-copyright {
-  margin-top: 3em;
+  margin-bottom: 2em;
   padding-top: 1em;
-  border-top: 1px dashed $light-gray;
+  border-bottom: 1px dashed $light-gray;
 
   .copyright-item {
     margin: 5px 0;
@@ -23,7 +23,7 @@
       text-align: left;
 
       &:after {
-        content: " 💡";
+        content: "©";
       }
     }
   }
