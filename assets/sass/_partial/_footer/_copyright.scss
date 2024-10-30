@@ -2,11 +2,12 @@
 // Copyright
 // =============================
 
-.copyright {
+.copyright, #footer-email {
   margin: $copyright-margin;
   color: $dark-gray;
   text-align: center;
   font-family: $global-serif-font-family;
+  font-style: italic;
 
   .hexo-link,
   .theme-link {

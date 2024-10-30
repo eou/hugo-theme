@@ -50,7 +50,9 @@
       {{ .Site.Params.since }} - 
     {{ end }}
     {{- $current -}}
-    <span class="heart"><i class="iconfont icon-heart"></i></span><!--
-    --><span>{{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Params.author.name | safeHTML }}{{ end }}</span>
+    <span class="heart"><i class="iconfont icon-heart"></i></span>
+    <!-- <span>{{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Params.author.email | safeHTML }}{{ end }}</span> -->
+    <!-- <span>{{ .Site.Params.author.email | safeHTML }}</span> -->
+    <span><a id="footer-email" href='mailto:{{ .Site.Params.author.email | safeHTML }}'>{{ .Site.Params.author.email | safeHTML }}</a></span>
   </span>
 </div>
