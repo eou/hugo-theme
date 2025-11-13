@@ -2,3 +2,26 @@
 // Custom style
 // ==============================
 // You can override the variables in _variables.scss to customize the style
+@font-face {
+  font-family: 'MapleMono';
+  src: url('/fonts/MapleMono-woff2/MapleMono-Regular.ttf.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MapleMono';
+  src: url('/fonts/MapleMono-woff2/MapleMono-Bold.ttf.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MapleMono';
+  src: url('/fonts/MapleMono-woff2/MapleMono-Italic.ttf.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
